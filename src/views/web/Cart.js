@@ -49,6 +49,12 @@ function Cart() {
         <img src={sweetcorn} alt="sweetcorn" />
         </Card>
       </Col>
+      <Col span={6}>
+      <Card >
+      <img src={orange} alt="sweetcorn" />
+      </Card>
+    </Col>
+    
       
     </Row>
 
