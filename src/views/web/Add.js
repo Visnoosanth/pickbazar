@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../style.css'
-import CartNotify from './CartNotify'
+
 function Add(props) {
   return (
       

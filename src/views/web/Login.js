@@ -6,7 +6,7 @@ import { AppleOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design
 import 'antd/dist/antd.css';
 import Title from './Title';
 import Cart from './Cart';
-import CartNotify from './CartNotify';
+
 
 
 const { SubMenu } = Menu;
@@ -56,7 +56,7 @@ const Login = () => {
             
           </SubMenu>
           <SubMenu key="sub2" icon={<AppleOutlined />} title="Meat & Fish">
-            <Menu.Item key="3">Meat</Menu.Item>
+            <Menu.Item key="3">Chiken</Menu.Item>
             <Menu.Item key="4">Fish</Menu.Item>
             
           </SubMenu>
@@ -106,3 +106,5 @@ const Login = () => {
 }
 
 export default Login;
+
+
